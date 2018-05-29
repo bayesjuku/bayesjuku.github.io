@@ -1,0 +1,24 @@
+name: 広島ベイズ塾へようこそ
+navbar:
+  title: 広島ベイズ塾
+  type: inverse
+  left:
+  - text: ベイズ塾とは
+    href: about.html
+  - text: イベント関連
+    href: event_top.html
+  - text: blog
+    href: https://bayesjuku.github.io/blog/
+  right:
+  - icon: fa-github
+    href: https://github.com/bayesjuku
+output:
+  html_document:
+    theme: cosmo
+    df_print: tibble
+    highlight: textmate
+    md_extensions: -ascii_identifiers
+    lib_dir: site_libs
+    self_contained: no
+output_dir: docs
+

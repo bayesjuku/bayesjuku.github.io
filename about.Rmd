@@ -1,0 +1,6 @@
+---
+title: ベイズ塾とは
+output: html_document
+---
+
+WIP.
